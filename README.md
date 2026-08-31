@@ -2,7 +2,7 @@
 
 Code and supporting materials for the qDINA model.
 
-The qDINA model extends the DINA model by introducing item-specific dispersion parameters, \(\phi_j\), which modify the contribution of each item through power weights \(w_j = 1/\phi_j\).
+The qDINA model extends the DINA model by introducing item-specific dispersion parameters, \(\phi_j\), which modifiy the contribution of each item to latent classification through power weights \(w_j = 1/\phi_j\).
 
 Repository: https://github.com/mcordobp/qDINA
 
@@ -23,7 +23,7 @@ Repository: https://github.com/mcordobp/qDINA
 - `empirical/fit_qdina_empirical.R`  
   Fits the DINA and qDINA models to the empirical dataset.
 
-- `input/Simulation5/`  
+- `input/`  
   Simulated datasets used in the simulation study.
 
 ## R dependencies
